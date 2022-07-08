@@ -6,7 +6,7 @@ import { Menu, ShoppingCart } from "@mui/icons-material";
 export const Navbar = ({ cart, toggle, settoggle }) => {
     const navigate = useNavigate();
     const [display, setdisplay] = useState(false);
-    const navelem = [{ title: 'Home', path: '/' }, { title: 'Menu', path: '/menu' }, { title: 'About', path: '/about' }];
+    const navelem = [{ title: 'Home', path: './Restuarnt_app/' }, { title: 'Menu', path: './Restuarnt_app/menu' }, { title: 'About', path: './Restuarnt_app/about' }];
     const Tool = styled(Toolbar)(({ theme }) => ({
         display: "flex",
         flexDirection: "row",
